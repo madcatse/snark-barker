@@ -1,0 +1,13 @@
+(footprint "SB_MH_125" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c8ceba62-ae17-44f9-86d9-0f6e32351026)
+  )
+  (fp_text value "Bracket Mount" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6c6389a6-9adb-4ca7-b49f-f41b4601f2de)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 3.81 3.81) (drill 3.175) (layers "*.Cu" "*.Mask") (tstamp 35dfa9c0-869a-44dd-b3c6-29405827e3b7))
+)
