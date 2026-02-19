@@ -1,20 +1,112 @@
-(footprint "SB_C_RADIAL_100_320" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 1.27 5.334) (layer "F.SilkS")
-      (effects (font (size 1.524 1.524) (thickness 0.254)))
-    (tstamp c80486f6-5d5b-408c-9daa-e82d6251cbb5)
-  )
-  (fp_text value "100uF 16V" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d0053ab3-dc05-4b14-9827-0b67b3e2562a)
-  )
-  (fp_line (start -2.286 0) (end -1.27 0)
-    (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp 4fa6dffe-d9e0-42dd-b211-4bdb14946ec8))
-  (fp_line (start -1.778 -0.508) (end -1.778 0.508)
-    (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp d1c24afd-6761-47b0-a674-90adc6f41772))
-  (fp_circle (center 1.27 0) (end 5.334 0)
-    (stroke (width 0.254) (type solid)) (fill none) (layer "F.SilkS") (tstamp db4b5b78-b32c-4fa2-b109-887227e01898))
-  (pad "1" thru_hole circle (at 0 0 270) (size 1.524 1.524) (drill 0.889) (layers "*.Cu" "*.Mask") (tstamp baf9d553-b366-40fb-abc6-af36f054f4da))
-  (pad "2" thru_hole circle (at 2.54 0 270) (size 1.524 1.524) (drill 0.889) (layers "*.Cu" "*.Mask") (tstamp a7bae286-9223-457d-baea-55f1054f068f))
+(footprint "SB_C_RADIAL_100_320"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 5.334 0)
+		(layer "F.SilkS")
+		(uuid "c80486f6-5d5b-408c-9daa-e82d6251cbb5")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "100uF 16V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d0053ab3-dc05-4b14-9827-0b67b3e2562a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04679063-baa1-4e81-a56b-6ca235049461")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "257119c4-8a9d-4e6c-93ec-4aac883bdc09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.286 0)
+		(end -1.27 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fa6dffe-d9e0-42dd-b211-4bdb14946ec8")
+	)
+	(fp_line
+		(start -1.778 -0.508)
+		(end -1.778 0.508)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1c24afd-6761-47b0-a674-90adc6f41772")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 5.334 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "db4b5b78-b32c-4fa2-b109-887227e01898")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 270)
+		(size 1.524 1.524)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baf9d553-b366-40fb-abc6-af36f054f4da")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0 270)
+		(size 1.524 1.524)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7bae286-9223-457d-baea-55f1054f068f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D7.5mm_P2.50mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
